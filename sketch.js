@@ -85,6 +85,7 @@ function resetDB(){
   database.ref('balloon/height').set({
     x : 200,
     y : 500
-  });
+  })
+  ;
 
 }
